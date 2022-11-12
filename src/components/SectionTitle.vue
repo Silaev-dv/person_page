@@ -28,6 +28,7 @@ export default {
     max-width: 1000px;
 
     section {
+        opacity: 90%;
         border-radius: 15px;
         padding: 30px;
         font-size: large;
