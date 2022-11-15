@@ -1,4 +1,4 @@
-<template>
+<template>  
   <nav>
     <router-link to="/">Главная</router-link> |
     <router-link to="/skills">Навыки</router-link> |
@@ -8,11 +8,8 @@
     <router-link to="/materials">Материалы</router-link> |
     <router-link to="/jspg">JS playground</router-link>
   </nav>
-  
   <router-view class="mainfield"/>
-
   <CommonFooter class="footer"/>
-
 </template>
 
 <script>
